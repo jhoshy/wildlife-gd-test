@@ -1,0 +1,2418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c1d63372ba3b140b5317c62b358fc6, type: 3}
+  m_Name: Grid Level6
+  m_EditorClassIdentifier: 
+  nodeScale: 2
+  width: 20
+  height: 20
+  grid:
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 0}
+    x: 0
+    y: 0
+    gCost: 44
+    hCost: 19.79899
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 0}
+    x: 1
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 4, y: 0, z: 0}
+    x: 2
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 6, y: 0, z: 0}
+    x: 3
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 8, y: 0, z: 0}
+    x: 4
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 10, y: 0, z: 0}
+    x: 5
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 12, y: 0, z: 0}
+    x: 6
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 14, y: 0, z: 0}
+    x: 7
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 16, y: 0, z: 0}
+    x: 8
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 18, y: 0, z: 0}
+    x: 9
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 20, y: 0, z: 0}
+    x: 10
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 0}
+    x: 11
+    y: 0
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 0}
+    x: 12
+    y: 0
+    gCost: 56
+    hCost: 17.20465
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 0}
+    x: 13
+    y: 0
+    gCost: 58
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 0}
+    x: 14
+    y: 0
+    gCost: 60
+    hCost: 19.79899
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 0}
+    x: 15
+    y: 0
+    gCost: 62
+    hCost: 21.260292
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 0}
+    x: 16
+    y: 0
+    gCost: 64
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 0}
+    x: 17
+    y: 0
+    gCost: 66
+    hCost: 24.41311
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 0}
+    x: 18
+    y: 0
+    gCost: 68
+    hCost: 26.076809
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 0}
+    x: 19
+    y: 0
+    gCost: 70
+    hCost: 27.784887
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 2}
+    x: 0
+    y: 1
+    gCost: 42
+    hCost: 18.439089
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 2}
+    x: 1
+    y: 1
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 2}
+    x: 2
+    y: 1
+    gCost: 100
+    hCost: 15.6205
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 2}
+    x: 3
+    y: 1
+    gCost: 442
+    hCost: 6
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 2}
+    x: 4
+    y: 1
+    gCost: 436
+    hCost: 4.472136
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 2}
+    x: 5
+    y: 1
+    gCost: 430
+    hCost: 4.472136
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 2}
+    x: 6
+    y: 1
+    gCost: 424
+    hCost: 4.472136
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 2}
+    x: 7
+    y: 1
+    gCost: 418
+    hCost: 4.472136
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 2}
+    x: 8
+    y: 1
+    gCost: 412
+    hCost: 4.472136
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 2}
+    x: 9
+    y: 1
+    gCost: 294
+    hCost: 8.485281
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 2}
+    x: 10
+    y: 1
+    gCost: 96
+    hCost: 13.416408
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 2}
+    x: 11
+    y: 1
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 2}
+    x: 12
+    y: 1
+    gCost: 54
+    hCost: 15.6205
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 2}
+    x: 13
+    y: 1
+    gCost: 56
+    hCost: 16.970562
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 2}
+    x: 14
+    y: 1
+    gCost: 58
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 2}
+    x: 15
+    y: 1
+    gCost: 60
+    hCost: 20
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 2}
+    x: 16
+    y: 1
+    gCost: 62
+    hCost: 21.633308
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 2}
+    x: 17
+    y: 1
+    gCost: 64
+    hCost: 23.323807
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 2}
+    x: 18
+    y: 1
+    gCost: 66
+    hCost: 25.059929
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 2}
+    x: 19
+    y: 1
+    gCost: 68
+    hCost: 26.832815
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 4}
+    x: 0
+    y: 2
+    gCost: 40
+    hCost: 17.20465
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 4}
+    x: 1
+    y: 2
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 4}
+    x: 2
+    y: 2
+    gCost: 442
+    hCost: 4.472136
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 4}
+    x: 3
+    y: 2
+    gCost: 448
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 4}
+    x: 4
+    y: 2
+    gCost: 446
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 4}
+    x: 5
+    y: 2
+    gCost: 408
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 4}
+    x: 6
+    y: 2
+    gCost: 406
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 4}
+    x: 7
+    y: 2
+    gCost: 404
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 4}
+    x: 8
+    y: 2
+    gCost: 402
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 4}
+    x: 9
+    y: 2
+    gCost: 400
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 4}
+    x: 10
+    y: 2
+    gCost: 294
+    hCost: 8.944272
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 4}
+    x: 11
+    y: 2
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 4}
+    x: 12
+    y: 2
+    gCost: 52
+    hCost: 14.142136
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 4}
+    x: 13
+    y: 2
+    gCost: 54
+    hCost: 15.6205
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 4}
+    x: 14
+    y: 2
+    gCost: 56
+    hCost: 17.20465
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 4}
+    x: 15
+    y: 2
+    gCost: 58
+    hCost: 18.867962
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 4}
+    x: 16
+    y: 2
+    gCost: 60
+    hCost: 20.59126
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 4}
+    x: 17
+    y: 2
+    gCost: 62
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 4}
+    x: 18
+    y: 2
+    gCost: 64
+    hCost: 24.166092
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 4}
+    x: 19
+    y: 2
+    gCost: 66
+    hCost: 26
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 6}
+    x: 0
+    y: 3
+    gCost: 38
+    hCost: 16.124516
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 6}
+    x: 1
+    y: 3
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 6}
+    x: 2
+    y: 3
+    gCost: 448
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 6}
+    x: 3
+    y: 3
+    gCost: 450
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 6}
+    x: 4
+    y: 3
+    gCost: 448
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 6}
+    x: 5
+    y: 3
+    gCost: 446
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 6}
+    x: 6
+    y: 3
+    gCost: 408
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 6}
+    x: 7
+    y: 3
+    gCost: 406
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 6}
+    x: 8
+    y: 3
+    gCost: 404
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 6}
+    x: 9
+    y: 3
+    gCost: 402
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 6}
+    x: 10
+    y: 3
+    gCost: 400
+    hCost: 4
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 6}
+    x: 11
+    y: 3
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 6}
+    x: 12
+    y: 3
+    gCost: 50
+    hCost: 12.806249
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 6}
+    x: 13
+    y: 3
+    gCost: 52
+    hCost: 14.422205
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 6}
+    x: 14
+    y: 3
+    gCost: 54
+    hCost: 16.124516
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 6}
+    x: 15
+    y: 3
+    gCost: 56
+    hCost: 17.888544
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 6}
+    x: 16
+    y: 3
+    gCost: 58
+    hCost: 19.697716
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 6}
+    x: 17
+    y: 3
+    gCost: 60
+    hCost: 21.540659
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 6}
+    x: 18
+    y: 3
+    gCost: 62
+    hCost: 23.409399
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 6}
+    x: 19
+    y: 3
+    gCost: 64
+    hCost: 25.298222
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 8}
+    x: 0
+    y: 4
+    gCost: 36
+    hCost: 15.231546
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 8}
+    x: 1
+    y: 4
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 8}
+    x: 2
+    y: 4
+    gCost: 450
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 8}
+    x: 3
+    y: 4
+    gCost: 452
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 8}
+    x: 4
+    y: 4
+    gCost: 450
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 8}
+    x: 5
+    y: 4
+    gCost: 408
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 8}
+    x: 6
+    y: 4
+    gCost: 406
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 8}
+    x: 7
+    y: 4
+    gCost: 404
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 8}
+    x: 8
+    y: 4
+    gCost: 402
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 8}
+    x: 9
+    y: 4
+    gCost: 400
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 8}
+    x: 10
+    y: 4
+    gCost: 398
+    hCost: 2.828427
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 8}
+    x: 11
+    y: 4
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 8}
+    x: 12
+    y: 4
+    gCost: 48
+    hCost: 11.661903
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 8}
+    x: 13
+    y: 4
+    gCost: 50
+    hCost: 13.416408
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 8}
+    x: 14
+    y: 4
+    gCost: 52
+    hCost: 15.231546
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 8}
+    x: 15
+    y: 4
+    gCost: 54
+    hCost: 17.088007
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 8}
+    x: 16
+    y: 4
+    gCost: 56
+    hCost: 18.973665
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 8}
+    x: 17
+    y: 4
+    gCost: 58
+    hCost: 20.880613
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 8}
+    x: 18
+    y: 4
+    gCost: 60
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 8}
+    x: 19
+    y: 4
+    gCost: 62
+    hCost: 24.738634
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 10}
+    x: 0
+    y: 5
+    gCost: 34
+    hCost: 14.56022
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 10}
+    x: 1
+    y: 5
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 10}
+    x: 2
+    y: 5
+    gCost: 452
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 10}
+    x: 3
+    y: 5
+    gCost: 454
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 10}
+    x: 4
+    y: 5
+    gCost: 456
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 10}
+    x: 5
+    y: 5
+    gCost: 458
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 10}
+    x: 6
+    y: 5
+    gCost: 460
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 10}
+    x: 7
+    y: 5
+    gCost: 462
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 10}
+    x: 8
+    y: 5
+    gCost: 464
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 10}
+    x: 9
+    y: 5
+    gCost: 430
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 10}
+    x: 10
+    y: 5
+    gCost: 396
+    hCost: 2.828427
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 10}
+    x: 11
+    y: 5
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 10}
+    x: 12
+    y: 5
+    gCost: 46
+    hCost: 10.770329
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 10}
+    x: 13
+    y: 5
+    gCost: 48
+    hCost: 12.649111
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 10}
+    x: 14
+    y: 5
+    gCost: 50
+    hCost: 14.56022
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 10}
+    x: 15
+    y: 5
+    gCost: 52
+    hCost: 16.492422
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 10}
+    x: 16
+    y: 5
+    gCost: 54
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 10}
+    x: 17
+    y: 5
+    gCost: 56
+    hCost: 20.396078
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 10}
+    x: 18
+    y: 5
+    gCost: 58
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 10}
+    x: 19
+    y: 5
+    gCost: 60
+    hCost: 24.33105
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 12}
+    x: 0
+    y: 6
+    gCost: 32
+    hCost: 14.142136
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 12}
+    x: 1
+    y: 6
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 12}
+    x: 2
+    y: 6
+    gCost: 454
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 12}
+    x: 3
+    y: 6
+    gCost: 456
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 12}
+    x: 4
+    y: 6
+    gCost: 458
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 12}
+    x: 5
+    y: 6
+    gCost: 456
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 12}
+    x: 6
+    y: 6
+    gCost: 458
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 12}
+    x: 7
+    y: 6
+    gCost: 460
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 12}
+    x: 8
+    y: 6
+    gCost: 462
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 12}
+    x: 9
+    y: 6
+    gCost: 464
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 12}
+    x: 10
+    y: 6
+    gCost: 430
+    hCost: 2.828427
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 12}
+    x: 11
+    y: 6
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 12}
+    x: 12
+    y: 6
+    gCost: 44
+    hCost: 10.198039
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 12}
+    x: 13
+    y: 6
+    gCost: 46
+    hCost: 12.165525
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 12}
+    x: 14
+    y: 6
+    gCost: 48
+    hCost: 14.142136
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 12}
+    x: 15
+    y: 6
+    gCost: 50
+    hCost: 16.124516
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 12}
+    x: 16
+    y: 6
+    gCost: 52
+    hCost: 18.110771
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 12}
+    x: 17
+    y: 6
+    gCost: 54
+    hCost: 20.09975
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 12}
+    x: 18
+    y: 6
+    gCost: 56
+    hCost: 22.090721
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 12}
+    x: 19
+    y: 6
+    gCost: 58
+    hCost: 24.083189
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 14}
+    x: 0
+    y: 7
+    gCost: 30
+    hCost: 14
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 14}
+    x: 1
+    y: 7
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 14}
+    x: 2
+    y: 7
+    gCost: 400
+    hCost: 6.3245554
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 14}
+    x: 3
+    y: 7
+    gCost: 454
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 14}
+    x: 4
+    y: 7
+    gCost: 456
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 14}
+    x: 5
+    y: 7
+    gCost: 458
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 14}
+    x: 6
+    y: 7
+    gCost: 460
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 14}
+    x: 7
+    y: 7
+    gCost: 462
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 14}
+    x: 8
+    y: 7
+    gCost: 464
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 14}
+    x: 9
+    y: 7
+    gCost: 430
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 14}
+    x: 10
+    y: 7
+    gCost: 392
+    hCost: 2.828427
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 14}
+    x: 11
+    y: 7
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 14}
+    x: 12
+    y: 7
+    gCost: 42
+    hCost: 10
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 14}
+    x: 13
+    y: 7
+    gCost: 44
+    hCost: 12
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 14}
+    x: 14
+    y: 7
+    gCost: 46
+    hCost: 14
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 14}
+    x: 15
+    y: 7
+    gCost: 48
+    hCost: 16
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 14}
+    x: 16
+    y: 7
+    gCost: 50
+    hCost: 18
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 14}
+    x: 17
+    y: 7
+    gCost: 52
+    hCost: 20
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 14}
+    x: 18
+    y: 7
+    gCost: 54
+    hCost: 22
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 14}
+    x: 19
+    y: 7
+    gCost: 56
+    hCost: 24
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 16}
+    x: 0
+    y: 8
+    gCost: 28
+    hCost: 14.142136
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 16}
+    x: 1
+    y: 8
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 16}
+    x: 2
+    y: 8
+    gCost: 82
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 16}
+    x: 3
+    y: 8
+    gCost: 376
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 16}
+    x: 4
+    y: 8
+    gCost: 374
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 16}
+    x: 5
+    y: 8
+    gCost: 376
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 16}
+    x: 6
+    y: 8
+    gCost: 378
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 16}
+    x: 7
+    y: 8
+    gCost: 388
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 16}
+    x: 8
+    y: 8
+    gCost: 390
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 16}
+    x: 9
+    y: 8
+    gCost: 392
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 16}
+    x: 10
+    y: 8
+    gCost: 202
+    hCost: 2.828427
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 16}
+    x: 11
+    y: 8
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 16}
+    x: 12
+    y: 8
+    gCost: 40
+    hCost: 10.198039
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 16}
+    x: 13
+    y: 8
+    gCost: 42
+    hCost: 12.165525
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 16}
+    x: 14
+    y: 8
+    gCost: 44
+    hCost: 14.142136
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 16}
+    x: 15
+    y: 8
+    gCost: 46
+    hCost: 16.124516
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 16}
+    x: 16
+    y: 8
+    gCost: 48
+    hCost: 18.110771
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 16}
+    x: 17
+    y: 8
+    gCost: 50
+    hCost: 20.09975
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 16}
+    x: 18
+    y: 8
+    gCost: 52
+    hCost: 22.090721
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 16}
+    x: 19
+    y: 8
+    gCost: 54
+    hCost: 24.083189
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 18}
+    x: 0
+    y: 9
+    gCost: 26
+    hCost: 14.56022
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 18}
+    x: 1
+    y: 9
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 18}
+    x: 2
+    y: 9
+    gCost: 84
+    hCost: 10.770329
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 18}
+    x: 3
+    y: 9
+    gCost: 406
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 18}
+    x: 4
+    y: 9
+    gCost: 376
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 18}
+    x: 5
+    y: 9
+    gCost: 378
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 18}
+    x: 6
+    y: 9
+    gCost: 380
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 18}
+    x: 7
+    y: 9
+    gCost: 382
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 18}
+    x: 8
+    y: 9
+    gCost: 392
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 18}
+    x: 9
+    y: 9
+    gCost: 202
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 18}
+    x: 10
+    y: 9
+    gCost: 80
+    hCost: 7.2111025
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 18}
+    x: 11
+    y: 9
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 18}
+    x: 12
+    y: 9
+    gCost: 38
+    hCost: 10.770329
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 18}
+    x: 13
+    y: 9
+    gCost: 40
+    hCost: 12.649111
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 18}
+    x: 14
+    y: 9
+    gCost: 42
+    hCost: 14.56022
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 18}
+    x: 15
+    y: 9
+    gCost: 44
+    hCost: 16.492422
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 18}
+    x: 16
+    y: 9
+    gCost: 46
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 18}
+    x: 17
+    y: 9
+    gCost: 48
+    hCost: 20.396078
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 18}
+    x: 18
+    y: 9
+    gCost: 50
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 18}
+    x: 19
+    y: 9
+    gCost: 52
+    hCost: 24.33105
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 20}
+    x: 0
+    y: 10
+    gCost: 24
+    hCost: 15.231546
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 20}
+    x: 1
+    y: 10
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 20}
+    x: 2
+    y: 10
+    gCost: 86
+    hCost: 11.661903
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 20}
+    x: 3
+    y: 10
+    gCost: 404
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 20}
+    x: 4
+    y: 10
+    gCost: 406
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 20}
+    x: 5
+    y: 10
+    gCost: 412
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 20}
+    x: 6
+    y: 10
+    gCost: 402
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 20}
+    x: 7
+    y: 10
+    gCost: 400
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 20}
+    x: 8
+    y: 10
+    gCost: 398
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 20}
+    x: 9
+    y: 10
+    gCost: 80
+    hCost: 7.2111025
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 20}
+    x: 10
+    y: 10
+    gCost: 82
+    hCost: 8.485281
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 20}
+    x: 11
+    y: 10
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 20}
+    x: 12
+    y: 10
+    gCost: 36
+    hCost: 11.661903
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 20}
+    x: 13
+    y: 10
+    gCost: 38
+    hCost: 13.416408
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 20}
+    x: 14
+    y: 10
+    gCost: 40
+    hCost: 15.231546
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 20}
+    x: 15
+    y: 10
+    gCost: 42
+    hCost: 17.088007
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 20}
+    x: 16
+    y: 10
+    gCost: 44
+    hCost: 18.973665
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 20}
+    x: 17
+    y: 10
+    gCost: 46
+    hCost: 20.880613
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 20}
+    x: 18
+    y: 10
+    gCost: 48
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 20}
+    x: 19
+    y: 10
+    gCost: 50
+    hCost: 24.738634
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 22}
+    x: 0
+    y: 11
+    gCost: 22
+    hCost: 16.124516
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 22}
+    x: 1
+    y: 11
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 22}
+    x: 2
+    y: 11
+    gCost: 88
+    hCost: 12.806249
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 22}
+    x: 3
+    y: 11
+    gCost: 86
+    hCost: 11.313708
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 22}
+    x: 4
+    y: 11
+    gCost: 404
+    hCost: 4
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 22}
+    x: 5
+    y: 11
+    gCost: 402
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 22}
+    x: 6
+    y: 11
+    gCost: 400
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 22}
+    x: 7
+    y: 11
+    gCost: 398
+    hCost: 2.828427
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 22}
+    x: 8
+    y: 11
+    gCost: 84
+    hCost: 4.472136
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 22}
+    x: 9
+    y: 11
+    gCost: 82
+    hCost: 8.944272
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 22}
+    x: 10
+    y: 11
+    gCost: 84
+    hCost: 10
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 22}
+    x: 11
+    y: 11
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 22}
+    x: 12
+    y: 11
+    gCost: 34
+    hCost: 12.806249
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 22}
+    x: 13
+    y: 11
+    gCost: 36
+    hCost: 14.422205
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 22}
+    x: 14
+    y: 11
+    gCost: 38
+    hCost: 16.124516
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 22}
+    x: 15
+    y: 11
+    gCost: 40
+    hCost: 17.888544
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 22}
+    x: 16
+    y: 11
+    gCost: 42
+    hCost: 19.697716
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 22}
+    x: 17
+    y: 11
+    gCost: 44
+    hCost: 21.540659
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 22}
+    x: 18
+    y: 11
+    gCost: 46
+    hCost: 23.409399
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 22}
+    x: 19
+    y: 11
+    gCost: 48
+    hCost: 25.298222
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 24}
+    x: 0
+    y: 12
+    gCost: 20
+    hCost: 17.20465
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 24}
+    x: 1
+    y: 12
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 24}
+    x: 2
+    y: 12
+    gCost: 90
+    hCost: 14.142136
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 24}
+    x: 3
+    y: 12
+    gCost: 88
+    hCost: 12.806249
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 24}
+    x: 4
+    y: 12
+    gCost: 86
+    hCost: 11.661903
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 24}
+    x: 5
+    y: 12
+    gCost: 84
+    hCost: 10.770329
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 24}
+    x: 6
+    y: 12
+    gCost: 86
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 24}
+    x: 7
+    y: 12
+    gCost: 84
+    hCost: 2
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 24}
+    x: 8
+    y: 12
+    gCost: 82
+    hCost: 10.198039
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 24}
+    x: 9
+    y: 12
+    gCost: 84
+    hCost: 10.770329
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 24}
+    x: 10
+    y: 12
+    gCost: 86
+    hCost: 11.661903
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 24}
+    x: 11
+    y: 12
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 24}
+    x: 12
+    y: 12
+    gCost: 32
+    hCost: 14.142136
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 24}
+    x: 13
+    y: 12
+    gCost: 34
+    hCost: 15.6205
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 24}
+    x: 14
+    y: 12
+    gCost: 36
+    hCost: 17.20465
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 24}
+    x: 15
+    y: 12
+    gCost: 38
+    hCost: 18.867962
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 24}
+    x: 16
+    y: 12
+    gCost: 40
+    hCost: 20.59126
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 24}
+    x: 17
+    y: 12
+    gCost: 42
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 24}
+    x: 18
+    y: 12
+    gCost: 44
+    hCost: 24.166092
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 24}
+    x: 19
+    y: 12
+    gCost: 46
+    hCost: 26
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 26}
+    x: 0
+    y: 13
+    gCost: 18
+    hCost: 18.439089
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 26}
+    x: 1
+    y: 13
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 26}
+    x: 2
+    y: 13
+    gCost: 92
+    hCost: 15.6205
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 26}
+    x: 3
+    y: 13
+    gCost: 90
+    hCost: 14.422205
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 26}
+    x: 4
+    y: 13
+    gCost: 88
+    hCost: 13.416408
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 26}
+    x: 5
+    y: 13
+    gCost: 86
+    hCost: 12.649111
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 26}
+    x: 6
+    y: 13
+    gCost: 84
+    hCost: 12.165525
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 26}
+    x: 7
+    y: 13
+    gCost: 82
+    hCost: 12
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 26}
+    x: 8
+    y: 13
+    gCost: 84
+    hCost: 12.165525
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 26}
+    x: 9
+    y: 13
+    gCost: 86
+    hCost: 12.649111
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 26}
+    x: 10
+    y: 13
+    gCost: 88
+    hCost: 13.416408
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 26}
+    x: 11
+    y: 13
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 26}
+    x: 12
+    y: 13
+    gCost: 30
+    hCost: 15.6205
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 26}
+    x: 13
+    y: 13
+    gCost: 32
+    hCost: 16.970562
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 26}
+    x: 14
+    y: 13
+    gCost: 34
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 26}
+    x: 15
+    y: 13
+    gCost: 36
+    hCost: 20
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 26}
+    x: 16
+    y: 13
+    gCost: 38
+    hCost: 21.633308
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 26}
+    x: 17
+    y: 13
+    gCost: 40
+    hCost: 23.323807
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 26}
+    x: 18
+    y: 13
+    gCost: 42
+    hCost: 25.059929
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 26}
+    x: 19
+    y: 13
+    gCost: 44
+    hCost: 26.832815
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 28}
+    x: 0
+    y: 14
+    gCost: 16
+    hCost: 19.79899
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 28}
+    x: 1
+    y: 14
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 28}
+    x: 2
+    y: 14
+    gCost: 94
+    hCost: 17.20465
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 28}
+    x: 3
+    y: 14
+    gCost: 92
+    hCost: 16.124516
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 28}
+    x: 4
+    y: 14
+    gCost: 90
+    hCost: 15.231546
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 28}
+    x: 5
+    y: 14
+    gCost: 88
+    hCost: 14.56022
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 28}
+    x: 6
+    y: 14
+    gCost: 86
+    hCost: 14.142136
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 28}
+    x: 7
+    y: 14
+    gCost: 84
+    hCost: 14
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 28}
+    x: 8
+    y: 14
+    gCost: 86
+    hCost: 14.142136
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 28}
+    x: 9
+    y: 14
+    gCost: 88
+    hCost: 14.56022
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 28}
+    x: 10
+    y: 14
+    gCost: 90
+    hCost: 15.231546
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 28}
+    x: 11
+    y: 14
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 28}
+    x: 12
+    y: 14
+    gCost: 28
+    hCost: 17.20465
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 28}
+    x: 13
+    y: 14
+    gCost: 30
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 28}
+    x: 14
+    y: 14
+    gCost: 32
+    hCost: 19.79899
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 28}
+    x: 15
+    y: 14
+    gCost: 34
+    hCost: 21.260292
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 28}
+    x: 16
+    y: 14
+    gCost: 36
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 28}
+    x: 17
+    y: 14
+    gCost: 38
+    hCost: 24.41311
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 28}
+    x: 18
+    y: 14
+    gCost: 40
+    hCost: 26.076809
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 28}
+    x: 19
+    y: 14
+    gCost: 42
+    hCost: 27.784887
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 30}
+    x: 0
+    y: 15
+    gCost: 14
+    hCost: 21.260292
+  - walkable: 0
+    worldPosition: {x: 2, y: 0, z: 30}
+    x: 1
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 4, y: 0, z: 30}
+    x: 2
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 6, y: 0, z: 30}
+    x: 3
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 8, y: 0, z: 30}
+    x: 4
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 10, y: 0, z: 30}
+    x: 5
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 12, y: 0, z: 30}
+    x: 6
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 14, y: 0, z: 30}
+    x: 7
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 16, y: 0, z: 30}
+    x: 8
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 18, y: 0, z: 30}
+    x: 9
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 20, y: 0, z: 30}
+    x: 10
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 0
+    worldPosition: {x: 22, y: 0, z: 30}
+    x: 11
+    y: 15
+    gCost: 0
+    hCost: 0
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 30}
+    x: 12
+    y: 15
+    gCost: 26
+    hCost: 18.867962
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 30}
+    x: 13
+    y: 15
+    gCost: 28
+    hCost: 20
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 30}
+    x: 14
+    y: 15
+    gCost: 30
+    hCost: 21.260292
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 30}
+    x: 15
+    y: 15
+    gCost: 32
+    hCost: 22.627417
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 30}
+    x: 16
+    y: 15
+    gCost: 34
+    hCost: 24.083189
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 30}
+    x: 17
+    y: 15
+    gCost: 36
+    hCost: 25.612497
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 30}
+    x: 18
+    y: 15
+    gCost: 38
+    hCost: 27.202942
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 30}
+    x: 19
+    y: 15
+    gCost: 40
+    hCost: 28.84441
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 32}
+    x: 0
+    y: 16
+    gCost: 12
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 2, y: 0, z: 32}
+    x: 1
+    y: 16
+    gCost: 10
+    hCost: 21.633308
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 32}
+    x: 2
+    y: 16
+    gCost: 4
+    hCost: 20.59126
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 32}
+    x: 3
+    y: 16
+    gCost: 2
+    hCost: 19.697716
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 32}
+    x: 4
+    y: 16
+    gCost: 4
+    hCost: 18.973665
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 32}
+    x: 5
+    y: 16
+    gCost: 6
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 32}
+    x: 6
+    y: 16
+    gCost: 12
+    hCost: 18.110771
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 32}
+    x: 7
+    y: 16
+    gCost: 14
+    hCost: 18
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 32}
+    x: 8
+    y: 16
+    gCost: 16
+    hCost: 18.110771
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 32}
+    x: 9
+    y: 16
+    gCost: 18
+    hCost: 18.439089
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 32}
+    x: 10
+    y: 16
+    gCost: 20
+    hCost: 18.973665
+  - walkable: 1
+    worldPosition: {x: 22, y: 0, z: 32}
+    x: 11
+    y: 16
+    gCost: 22
+    hCost: 19.697716
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 32}
+    x: 12
+    y: 16
+    gCost: 24
+    hCost: 20.59126
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 32}
+    x: 13
+    y: 16
+    gCost: 26
+    hCost: 21.633308
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 32}
+    x: 14
+    y: 16
+    gCost: 28
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 32}
+    x: 15
+    y: 16
+    gCost: 30
+    hCost: 24.083189
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 32}
+    x: 16
+    y: 16
+    gCost: 32
+    hCost: 25.455845
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 32}
+    x: 17
+    y: 16
+    gCost: 34
+    hCost: 26.907248
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 32}
+    x: 18
+    y: 16
+    gCost: 36
+    hCost: 28.42534
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 32}
+    x: 19
+    y: 16
+    gCost: 38
+    hCost: 30
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 34}
+    x: 0
+    y: 17
+    gCost: 14
+    hCost: 24.41311
+  - walkable: 1
+    worldPosition: {x: 2, y: 0, z: 34}
+    x: 1
+    y: 17
+    gCost: 12
+    hCost: 23.323807
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 34}
+    x: 2
+    y: 17
+    gCost: 10
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 34}
+    x: 3
+    y: 17
+    gCost: 4
+    hCost: 21.540659
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 34}
+    x: 4
+    y: 17
+    gCost: 6
+    hCost: 20.880613
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 34}
+    x: 5
+    y: 17
+    gCost: 12
+    hCost: 20.396078
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 34}
+    x: 6
+    y: 17
+    gCost: 14
+    hCost: 20.09975
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 34}
+    x: 7
+    y: 17
+    gCost: 16
+    hCost: 20
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 34}
+    x: 8
+    y: 17
+    gCost: 18
+    hCost: 20.09975
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 34}
+    x: 9
+    y: 17
+    gCost: 20
+    hCost: 20.396078
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 34}
+    x: 10
+    y: 17
+    gCost: 22
+    hCost: 20.880613
+  - walkable: 1
+    worldPosition: {x: 22, y: 0, z: 34}
+    x: 11
+    y: 17
+    gCost: 24
+    hCost: 21.540659
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 34}
+    x: 12
+    y: 17
+    gCost: 26
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 34}
+    x: 13
+    y: 17
+    gCost: 28
+    hCost: 23.323807
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 34}
+    x: 14
+    y: 17
+    gCost: 30
+    hCost: 24.41311
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 34}
+    x: 15
+    y: 17
+    gCost: 32
+    hCost: 25.612497
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 34}
+    x: 16
+    y: 17
+    gCost: 34
+    hCost: 26.907248
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 34}
+    x: 17
+    y: 17
+    gCost: 36
+    hCost: 28.284271
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 34}
+    x: 18
+    y: 17
+    gCost: 38
+    hCost: 29.732138
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 34}
+    x: 19
+    y: 17
+    gCost: 40
+    hCost: 31.241
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 36}
+    x: 0
+    y: 18
+    gCost: 16
+    hCost: 26.076809
+  - walkable: 1
+    worldPosition: {x: 2, y: 0, z: 36}
+    x: 1
+    y: 18
+    gCost: 14
+    hCost: 25.059929
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 36}
+    x: 2
+    y: 18
+    gCost: 12
+    hCost: 24.166092
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 36}
+    x: 3
+    y: 18
+    gCost: 10
+    hCost: 23.409399
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 36}
+    x: 4
+    y: 18
+    gCost: 12
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 36}
+    x: 5
+    y: 18
+    gCost: 14
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 36}
+    x: 6
+    y: 18
+    gCost: 16
+    hCost: 22.090721
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 36}
+    x: 7
+    y: 18
+    gCost: 18
+    hCost: 22
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 36}
+    x: 8
+    y: 18
+    gCost: 20
+    hCost: 22.090721
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 36}
+    x: 9
+    y: 18
+    gCost: 22
+    hCost: 22.36068
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 36}
+    x: 10
+    y: 18
+    gCost: 24
+    hCost: 22.803509
+  - walkable: 1
+    worldPosition: {x: 22, y: 0, z: 36}
+    x: 11
+    y: 18
+    gCost: 26
+    hCost: 23.409399
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 36}
+    x: 12
+    y: 18
+    gCost: 28
+    hCost: 24.166092
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 36}
+    x: 13
+    y: 18
+    gCost: 30
+    hCost: 25.059929
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 36}
+    x: 14
+    y: 18
+    gCost: 32
+    hCost: 26.076809
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 36}
+    x: 15
+    y: 18
+    gCost: 34
+    hCost: 27.202942
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 36}
+    x: 16
+    y: 18
+    gCost: 36
+    hCost: 28.42534
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 36}
+    x: 17
+    y: 18
+    gCost: 38
+    hCost: 29.732138
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 36}
+    x: 18
+    y: 18
+    gCost: 40
+    hCost: 31.112698
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 36}
+    x: 19
+    y: 18
+    gCost: 42
+    hCost: 32.55764
+  - walkable: 1
+    worldPosition: {x: 0, y: 0, z: 38}
+    x: 0
+    y: 19
+    gCost: 18
+    hCost: 27.784887
+  - walkable: 1
+    worldPosition: {x: 2, y: 0, z: 38}
+    x: 1
+    y: 19
+    gCost: 16
+    hCost: 26.832815
+  - walkable: 1
+    worldPosition: {x: 4, y: 0, z: 38}
+    x: 2
+    y: 19
+    gCost: 14
+    hCost: 26
+  - walkable: 1
+    worldPosition: {x: 6, y: 0, z: 38}
+    x: 3
+    y: 19
+    gCost: 12
+    hCost: 25.298222
+  - walkable: 1
+    worldPosition: {x: 8, y: 0, z: 38}
+    x: 4
+    y: 19
+    gCost: 14
+    hCost: 24.738634
+  - walkable: 1
+    worldPosition: {x: 10, y: 0, z: 38}
+    x: 5
+    y: 19
+    gCost: 16
+    hCost: 24.33105
+  - walkable: 1
+    worldPosition: {x: 12, y: 0, z: 38}
+    x: 6
+    y: 19
+    gCost: 18
+    hCost: 24.083189
+  - walkable: 1
+    worldPosition: {x: 14, y: 0, z: 38}
+    x: 7
+    y: 19
+    gCost: 20
+    hCost: 24
+  - walkable: 1
+    worldPosition: {x: 16, y: 0, z: 38}
+    x: 8
+    y: 19
+    gCost: 22
+    hCost: 24.083189
+  - walkable: 1
+    worldPosition: {x: 18, y: 0, z: 38}
+    x: 9
+    y: 19
+    gCost: 24
+    hCost: 24.33105
+  - walkable: 1
+    worldPosition: {x: 20, y: 0, z: 38}
+    x: 10
+    y: 19
+    gCost: 26
+    hCost: 24.738634
+  - walkable: 1
+    worldPosition: {x: 22, y: 0, z: 38}
+    x: 11
+    y: 19
+    gCost: 28
+    hCost: 25.298222
+  - walkable: 1
+    worldPosition: {x: 24, y: 0, z: 38}
+    x: 12
+    y: 19
+    gCost: 30
+    hCost: 26
+  - walkable: 1
+    worldPosition: {x: 26, y: 0, z: 38}
+    x: 13
+    y: 19
+    gCost: 32
+    hCost: 26.832815
+  - walkable: 1
+    worldPosition: {x: 28, y: 0, z: 38}
+    x: 14
+    y: 19
+    gCost: 34
+    hCost: 27.784887
+  - walkable: 1
+    worldPosition: {x: 30, y: 0, z: 38}
+    x: 15
+    y: 19
+    gCost: 36
+    hCost: 28.84441
+  - walkable: 1
+    worldPosition: {x: 32, y: 0, z: 38}
+    x: 16
+    y: 19
+    gCost: 38
+    hCost: 30
+  - walkable: 1
+    worldPosition: {x: 34, y: 0, z: 38}
+    x: 17
+    y: 19
+    gCost: 40
+    hCost: 31.241
+  - walkable: 1
+    worldPosition: {x: 36, y: 0, z: 38}
+    x: 18
+    y: 19
+    gCost: 42
+    hCost: 32.55764
+  - walkable: 1
+    worldPosition: {x: 38, y: 0, z: 38}
+    x: 19
+    y: 19
+    gCost: 44
+    hCost: 33.941124
